@@ -7,6 +7,7 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open 
 
 ## 🗄️ Databases & Storage
 
+  * [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha Rust MCP server for encrypted, append-only knowledge with scoped, expiring grants; MIT licensed, built from source.
   * **[Postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)** - Official read-only and schema-aware database access.
   * **[SQLite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite)** - Local database management and querying.
   * **[Supabase](https://www.google.com/search?q=https://github.com/supabase/mcp-server)** - Serverless Postgres-based context with edge function support.
@@ -18,9 +19,11 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open 
 
 ## 🛠️ Developer Tools & Infrastructure
 
+  * **[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node)** - Local macOS CLI and stdio MCP payments with foreground owner approval for signing.
   * **[GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/github)** - Repository management, PRs, and issue tracking.
   * **[GitLab](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab)** - Full GitLab API integration for projects and CI/CD.
   * **[Docker](https://www.google.com/search?q=https://github.com/appcypher/mcp-server-docker)** - Seamless container and compose stack management.
+  * **[deed.page](https://github.com/f-o-x11/deed-page-skill)** - Hosted remote MCP server (`https://deed.page/mcp`) that publishes static HTML files or folders to a public HTTPS URL, then updates or deletes them.
   * **[Kubernetes](https://www.google.com/search?q=https://github.com/modelcontextprotocol/servers/tree/main/src/kubernetes)** - Monitor and manage K8s clusters and pods.
   * **[KubeStellar Console kc-agent](https://github.com/kubestellar/console)** - AI-powered MCP server for multi-cluster Kubernetes management across edge and cloud.
   * **[Sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry)** - Retrieve and analyze error logs for debugging.
@@ -31,12 +34,15 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open 
 
 ## 💬 Communication & Workplace
 
-  * **[Slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)** - Channel and thread context for team collaboration.
+  * **[BulkPublish](https://github.com/azeemkafridi/bulkpublish-api)** - Hosted MCP and API for AI-agent social media planning, review, scheduling, and batch publishing. See the [social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) and [documentation](https://app.bulkpublish.com/docs).
   * **[Discord](https://github.com/modelcontextprotocol/servers/tree/main/src/discord)** - Interaction with Discord guilds and channels.
-  * **[Notion](https://www.google.com/search?q=https://github.com/michaelfester/mcp-notion)** - Real-time access to pages, tasks, and databases.
   * **[Linear](https://www.google.com/search?q=https://github.com/linear/mcp-server)** - Integration with Linear's issue tracking system.
   * **[Microsoft 365](https://www.google.com/search?q=https://github.com/modelcontextprotocol/servers/tree/main/src/m365)** - Graph API integration for Outlook, Excel, and Calendar.
   * **[BulkPublish](https://github.com/azeemkafridi/bulkpublish-api)** - Hosted MCP and API for AI-agent social media planning, review, scheduling, and batch publishing. See the [social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) and [documentation](https://app.bulkpublish.com/docs).
+  * **[Kleap](https://github.com/kleaphq/cli)** - No-code website builder MCP (remote `https://kleap.co/api/mcp`) for creating, editing, and publishing live sites from AI agents.
+  * **[Notion](https://www.google.com/search?q=https://github.com/michaelfester/mcp-notion)** - Real-time access to pages, tasks, and databases.
+  * **[Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** - Search screen text and audio transcripts captured by a running Screenpipe instance through MCP. Source available under the Screenpipe Commercial License; configured cloud services and connected AI clients can send context off-device.
+  * **[Slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)** - Channel and thread context for team collaboration.
 
 ## 🌐 Search & Web APIs
 
@@ -46,6 +52,11 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open 
   * **[Zapier](https://www.google.com/search?q=https://zapier.com/blog/mcp-server/)** - Connects AI agents to 6,000+ app automations.
   * **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Neural search engine for high-quality web data retrieval.
   * **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
+  * **[Robot Speed](https://github.com/robot-speed/mcp)** - SEO / AI visibility MCP. Free tools at \`https://www.robot-speed.com/api/mcp/free\`; full remote at \`/api/mcp\`.
+
+## 📊 Data & Analytics
+
+  * **[Invokely MCP connector](https://github.com/estevecastells/invokely-mcp-connector)** - Local stdio connector for querying official statistics through Invokely's hosted service.
 
 ## 🤖 AI Frameworks & Orchestrators
 
@@ -55,5 +66,6 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open 
 
 ## 🔗 Aggregators
 
+  * **[Aident Loadout](https://github.com/Aident-AI/aident-skill)** - Remote MCP ([https://aident.ai](https://aident.ai)) connecting Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ Skills through one setup.
   * **[MCPJungle](https://www.google.com/search?q=https://github.com/duaraghav8/mcpjungle)** - A self-hosted registry and proxy for enterprise agents.
   * **[Composio](https://github.com/ComposioHQ/composio)** - Unified interface for connecting 500+ apps.
